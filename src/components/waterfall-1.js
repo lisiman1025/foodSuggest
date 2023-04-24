@@ -98,7 +98,7 @@ export default function WaterfallGridDemo() {
                     onClick={() => handleSearchImage()}
                     style={{ margin: "30px auto" }}
                 >
-                    LOAD MORE
+                    更多
                 </button>
             </div>
         </div>
