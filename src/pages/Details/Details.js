@@ -16,7 +16,7 @@ function Details(){
     <div style={{  paddingBottom: '10px' }}>
         <CommentSection/>
     </div>
-        <WaterfallGridDemo></WaterfallGridDemo>
+        <WaterfallGridDemo/>
   </div>
     )
 }
