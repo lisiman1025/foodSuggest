@@ -17,8 +17,8 @@ const RecommendDish = () => {
             <h3 style={{ textAlign: 'left',marginTop:'10px', marginLeft:'20px', marginBottom: '10px' }}>推荐菜</h3>
             <div style={{ display: 'flex' }}>
                 {dishes.slice(0, 6).map((dish, index) => (
-                    <div key={index} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center',margin:'10px' }}>
-                        <img src={dish.image} alt={dish.name} style={{ width: 80, height: 80 }} />
+                    <div key={index} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center',margin:'10px' , borderRadius: '10px' }}>
+                        <img src={dish.image} alt={dish.name} style={{ width: 80, height: 80,borderRadius: '10px' }} />
                         <p>{dish.name}</p>
                     </div>
                 ))}
