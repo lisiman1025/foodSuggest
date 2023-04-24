@@ -1,0 +1,72 @@
+.bg{
+    padding: 0;
+    margin: 0;
+}
+#mulSelect{
+    overflow: hidden;
+    
+}
+.ant-select-selection--multiple {
+    max-height: 32px;
+    overflow: hidden;
+}
+
+#cuisine{
+    flex-direction: row;
+}
+.foodList{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.foodItem{
+    height: 110px;
+    width: 100%;
+    background:#e1cecec8;
+    margin: 10px 12px 10px;
+    border-radius: 5px;
+}
+.leftItem{
+    float: left;
+    width: 100px;
+    margin: 5px;
+}
+.mainImg{
+    width: 100px;
+    border-radius: 5px;
+}
+.rightItem{
+    float: left;
+    margin: 10px;
+}
+.foodName{
+    font-size: large;
+    text-align: left;
+}
+.foodInfo{
+    text-align: left;
+    margin: 10px 5px 10px 0;
+}
+.foodStar{
+    float: left;
+}
+.addressInfo{
+    margin-top: 20px;
+    width: 400px;
+}
+.address{
+    float: left;
+    font-size: small;
+}
+.distance{
+    float: right;
+    font-size: smaller;
+}
+.moreItem{
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
