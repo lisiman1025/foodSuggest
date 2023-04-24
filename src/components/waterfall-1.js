@@ -54,6 +54,22 @@ export default function WaterfallGridDemo() {
         setImages((prev) => [...prev, ...arr]);
     };
     return (
+        <div>
+        <div
+            style={{
+                display: 'flex',
+                justifyContent: 'space-between',
+                padding: '15px 0',
+                borderTop: '1px solid #f1f1f1',
+                marginTop: '10px',
+            }}
+        >
+            <div style={{ textAlign: 'left', marginLeft:'20px', marginBottom: '15px' }}>更多推荐</div>
+            <div>
+                <i className="el-icon-arrow-right" />
+            </div>
+        </div>
+
         <div
             style={{
                 height: "600px",
@@ -71,7 +87,8 @@ export default function WaterfallGridDemo() {
                 }
             }}
         >
-            <div>更多推荐</div>
+
+
             <Waterfall
                 mode="grid"
                 el="#react-waterfall-grid-comps"
@@ -101,6 +118,7 @@ export default function WaterfallGridDemo() {
                     更多
                 </button>
             </div>
+        </div>
         </div>
     );
 }

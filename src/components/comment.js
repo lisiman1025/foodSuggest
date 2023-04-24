@@ -100,20 +100,6 @@ const CommentSection = () => {
                         </div>
                     </div>
                 ))}
-                <div
-                    style={{
-                        display: 'flex',
-                        justifyContent: 'space-between',
-                        padding: '15px 0',
-                        borderTop: '1px solid #f1f1f1',
-                        marginTop: '10px',
-                    }}
-                >
-                    <div style={{ textAlign: 'left', marginLeft:'20px', marginBottom: '15px' }}>查看全部评价</div>
-                    <div>
-                        <i className="el-icon-arrow-right" />
-                    </div>
-                </div>
             </div>
         </div>
     );
